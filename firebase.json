@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "dostum-nerede-app",
+          "appId": "1:558178861433:android:34f5296b424780ac01efa8",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "dostum-nerede-app",
+          "configurations": {
+            "android": "1:558178861433:android:34f5296b424780ac01efa8",
+            "ios": "1:558178861433:ios:922364ddb6b4c82c01efa8",
+            "web": "1:558178861433:web:954b2d11772db48201efa8",
+            "windows": "1:558178861433:web:be52e6c488782f4d01efa8"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": []
+    }
+  ]
+}
